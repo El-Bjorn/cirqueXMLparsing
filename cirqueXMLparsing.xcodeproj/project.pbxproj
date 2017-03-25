@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		823031EE156FF5A900125B8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823031ED156FF5A900125B8C /* UIKit.framework */; };
+		823031F0156FF5A900125B8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823031EF156FF5A900125B8C /* Foundation.framework */; };
+		823031F2156FF5A900125B8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823031F1156FF5A900125B8C /* CoreGraphics.framework */; };
+		823031F8156FF5A900125B8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 823031F6156FF5A900125B8C /* InfoPlist.strings */; };
+		823031FA156FF5A900125B8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 823031F9156FF5A900125B8C /* main.m */; };
+		823031FE156FF5A900125B8C /* SMTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 823031FD156FF5A900125B8C /* SMTAppDelegate.m */; };
+		82303201156FF5A900125B8C /* SMTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82303200156FF5A900125B8C /* SMTViewController.m */; };
+		82303204156FF5A900125B8C /* SMTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82303202156FF5A900125B8C /* SMTViewController.xib */; };
+		8230320B156FF65E00125B8C /* Offers.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8230320A156FF65E00125B8C /* Offers.xml */; };
+		823032111570150A00125B8C /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 823032101570150A00125B8C /* DDXMLDocument.m */; };
+		823032141570151C00125B8C /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 823032131570151C00125B8C /* DDXMLElement.m */; };
+		823032171570153000125B8C /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 823032161570153000125B8C /* DDXMLElementAdditions.m */; };
+		8230321A1570154100125B8C /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 823032191570154100125B8C /* DDXMLNode.m */; };
+		8230321E1570158A00125B8C /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8230321D1570158A00125B8C /* NSStringAdditions.m */; };
+		823032221570850700125B8C /* bookstore.xml in Resources */ = {isa = PBXBuildFile; fileRef = 823032211570850700125B8C /* bookstore.xml */; };
+		82303224157191E000125B8C /* offers-feed.xml in Resources */ = {isa = PBXBuildFile; fileRef = 82303223157191E000125B8C /* offers-feed.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		823031E9156FF5A900125B8C /* cirqueXMLparsing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cirqueXMLparsing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		823031ED156FF5A900125B8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		823031EF156FF5A900125B8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		823031F1156FF5A900125B8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		823031F5156FF5A900125B8C /* cirqueXMLparsing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cirqueXMLparsing-Info.plist"; sourceTree = "<group>"; };
+		823031F7156FF5A900125B8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		823031F9156FF5A900125B8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		823031FB156FF5A900125B8C /* cirqueXMLparsing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cirqueXMLparsing-Prefix.pch"; sourceTree = "<group>"; };
+		823031FC156FF5A900125B8C /* SMTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMTAppDelegate.h; sourceTree = "<group>"; };
+		823031FD156FF5A900125B8C /* SMTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMTAppDelegate.m; sourceTree = "<group>"; };
+		823031FF156FF5A900125B8C /* SMTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMTViewController.h; sourceTree = "<group>"; };
+		82303200156FF5A900125B8C /* SMTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMTViewController.m; sourceTree = "<group>"; };
+		82303203156FF5A900125B8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SMTViewController.xib; sourceTree = "<group>"; };
+		8230320A156FF65E00125B8C /* Offers.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Offers.xml; sourceTree = "<group>"; };
+		8230320E157014F500125B8C /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		8230320F1570150100125B8C /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		823032101570150A00125B8C /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		823032121570151200125B8C /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		823032131570151C00125B8C /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		823032151570152600125B8C /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		823032161570153000125B8C /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		823032181570153600125B8C /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		823032191570154100125B8C /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		8230321B1570154E00125B8C /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		8230321C1570157F00125B8C /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		8230321D1570158A00125B8C /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
+		823032211570850700125B8C /* bookstore.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bookstore.xml; sourceTree = "<group>"; };
+		82303223157191E000125B8C /* offers-feed.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "offers-feed.xml"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		823031E6156FF5A900125B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823031EE156FF5A900125B8C /* UIKit.framework in Frameworks */,
+				823031F0156FF5A900125B8C /* Foundation.framework in Frameworks */,
+				823031F2156FF5A900125B8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		823031DE156FF5A700125B8C = {
+			isa = PBXGroup;
+			children = (
+				823031F3156FF5A900125B8C /* cirqueXMLparsing */,
+				823031EC156FF5A900125B8C /* Frameworks */,
+				823031EA156FF5A900125B8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		823031EA156FF5A900125B8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				823031E9156FF5A900125B8C /* cirqueXMLparsing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		823031EC156FF5A900125B8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				823031ED156FF5A900125B8C /* UIKit.framework */,
+				823031EF156FF5A900125B8C /* Foundation.framework */,
+				823031F1156FF5A900125B8C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		823031F3156FF5A900125B8C /* cirqueXMLparsing */ = {
+			isa = PBXGroup;
+			children = (
+				8230320D1570141200125B8C /* DDXML */,
+				8230320C157013E300125B8C /* XMLfiles */,
+				823031FC156FF5A900125B8C /* SMTAppDelegate.h */,
+				823031FD156FF5A900125B8C /* SMTAppDelegate.m */,
+				823031FF156FF5A900125B8C /* SMTViewController.h */,
+				82303200156FF5A900125B8C /* SMTViewController.m */,
+				82303202156FF5A900125B8C /* SMTViewController.xib */,
+				823031F4156FF5A900125B8C /* Supporting Files */,
+			);
+			path = cirqueXMLparsing;
+			sourceTree = "<group>";
+		};
+		823031F4156FF5A900125B8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				823031F5156FF5A900125B8C /* cirqueXMLparsing-Info.plist */,
+				823031F6156FF5A900125B8C /* InfoPlist.strings */,
+				823031F9156FF5A900125B8C /* main.m */,
+				823031FB156FF5A900125B8C /* cirqueXMLparsing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8230320C157013E300125B8C /* XMLfiles */ = {
+			isa = PBXGroup;
+			children = (
+				82303223157191E000125B8C /* offers-feed.xml */,
+				823032211570850700125B8C /* bookstore.xml */,
+				8230320A156FF65E00125B8C /* Offers.xml */,
+			);
+			name = XMLfiles;
+			sourceTree = "<group>";
+		};
+		8230320D1570141200125B8C /* DDXML */ = {
+			isa = PBXGroup;
+			children = (
+				8230321D1570158A00125B8C /* NSStringAdditions.m */,
+				8230321C1570157F00125B8C /* NSStringAdditions.h */,
+				8230321B1570154E00125B8C /* DDXMLPrivate.h */,
+				823032191570154100125B8C /* DDXMLNode.m */,
+				823032181570153600125B8C /* DDXMLNode.h */,
+				823032161570153000125B8C /* DDXMLElementAdditions.m */,
+				823032151570152600125B8C /* DDXMLElementAdditions.h */,
+				823032131570151C00125B8C /* DDXMLElement.m */,
+				823032121570151200125B8C /* DDXMLElement.h */,
+				823032101570150A00125B8C /* DDXMLDocument.m */,
+				8230320F1570150100125B8C /* DDXMLDocument.h */,
+				8230320E157014F500125B8C /* DDXML.h */,
+			);
+			name = DDXML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		823031E8156FF5A900125B8C /* cirqueXMLparsing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82303207156FF5A900125B8C /* Build configuration list for PBXNativeTarget "cirqueXMLparsing" */;
+			buildPhases = (
+				823031E5156FF5A900125B8C /* Sources */,
+				823031E6156FF5A900125B8C /* Frameworks */,
+				823031E7156FF5A900125B8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cirqueXMLparsing;
+			productName = cirqueXMLparsing;
+			productReference = 823031E9156FF5A900125B8C /* cirqueXMLparsing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		823031E0156FF5A800125B8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 823031E3156FF5A800125B8C /* Build configuration list for PBXProject "cirqueXMLparsing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 823031DE156FF5A700125B8C;
+			productRefGroup = 823031EA156FF5A900125B8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				823031E8156FF5A900125B8C /* cirqueXMLparsing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		823031E7156FF5A900125B8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823031F8156FF5A900125B8C /* InfoPlist.strings in Resources */,
+				82303204156FF5A900125B8C /* SMTViewController.xib in Resources */,
+				8230320B156FF65E00125B8C /* Offers.xml in Resources */,
+				823032221570850700125B8C /* bookstore.xml in Resources */,
+				82303224157191E000125B8C /* offers-feed.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		823031E5156FF5A900125B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823031FA156FF5A900125B8C /* main.m in Sources */,
+				823031FE156FF5A900125B8C /* SMTAppDelegate.m in Sources */,
+				82303201156FF5A900125B8C /* SMTViewController.m in Sources */,
+				823032111570150A00125B8C /* DDXMLDocument.m in Sources */,
+				823032141570151C00125B8C /* DDXMLElement.m in Sources */,
+				823032171570153000125B8C /* DDXMLElementAdditions.m in Sources */,
+				8230321A1570154100125B8C /* DDXMLNode.m in Sources */,
+				8230321E1570158A00125B8C /* NSStringAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		823031F6156FF5A900125B8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				823031F7156FF5A900125B8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82303202156FF5A900125B8C /* SMTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82303203156FF5A900125B8C /* en */,
+			);
+			name = SMTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82303205156FF5A900125B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82303206156FF5A900125B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82303208156FF5A900125B8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Developer/Library/Frameworks;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cirqueXMLparsing/cirqueXMLparsing-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "cirqueXMLparsing/cirqueXMLparsing-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82303209156FF5A900125B8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Developer/Library/Frameworks;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cirqueXMLparsing/cirqueXMLparsing-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "cirqueXMLparsing/cirqueXMLparsing-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		823031E3156FF5A800125B8C /* Build configuration list for PBXProject "cirqueXMLparsing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82303205156FF5A900125B8C /* Debug */,
+				82303206156FF5A900125B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82303207156FF5A900125B8C /* Build configuration list for PBXNativeTarget "cirqueXMLparsing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82303208156FF5A900125B8C /* Debug */,
+				82303209156FF5A900125B8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 823031E0156FF5A800125B8C /* Project object */;
+}

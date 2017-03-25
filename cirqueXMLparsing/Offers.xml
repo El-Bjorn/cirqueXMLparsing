@@ -1,0 +1,31 @@
+﻿<offers>
+	<offer>
+		<title>LOVE Nevada Locals Offer</title>
+		<description>
+			<![CDATA[
+				<p>Save 40% on your tickets to <em>The Beatles</em> LOVE for Sunday performances with a valid Nevada ID! Call +1-866-566-9306 and mention &ldquo;Locals&rdquo; to redeem this offer.</p>
+				<p>&nbsp;</p>			
+			]]>
+		</description>
+		<legalfineprint>
+			<![CDATA[
+				Must show valid Nevada ID when picking up tickets. Plus tax and fee. Valid on select seating areas and categories. Valid only for Sunday 7pm and 9:30pm performances. Cannot be combined with any other offer. Management reserves all rights.			
+			]]>		
+		</legalfineprint>
+		<startdate>2012-04-17T02:30:00</startdate>
+		<enddate>2013-01-31T00:00:00</enddate>
+		<booking>
+			<phonenumber>+1-866-799-7711</phonenumber>
+			<links>
+				<link type=default>
+					<link-url>https://reservations.mgmmirage.com/bookingengine.aspx?pid=160&host=ticketing&code=HOMELVMILITARY</link-url>
+					<link-label>Buy Tickets</link-label>
+				</link>
+				<link type=mobile>
+					<link-url>https://reservations.mgmmirage.com/bookingengine.aspx?pid=160&host=ticketing&code=HOMELVMILITARY</link-url>
+					<link-label>Buy Tickets</link-label>
+				</link>
+			</links>
+		</booking>
+	</offer>
+</offers>
